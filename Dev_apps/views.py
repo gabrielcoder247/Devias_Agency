@@ -24,5 +24,5 @@ def index(request):
         HttpResponseRedirect('index')
 
 
-    return render(request, 'index.html', {})
+        return render(request, 'index.html')
 
