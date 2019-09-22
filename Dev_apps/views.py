@@ -13,3 +13,16 @@ from .forms import *
 
 
 # Create your views here.
+
+
+
+def index(request):
+    # Function to display home page data
+
+
+    
+        HttpResponseRedirect('index')
+
+
+    return render(request, 'index.html', {})
+
