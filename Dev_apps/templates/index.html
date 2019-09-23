@@ -1,22 +1,48 @@
-{% extends 'base.html'%}
-{% load staticfiles %}
+{% extends 'base.html' %}
 {% load bootstrap4 %}
+{% load static %}
+{% block styles %}
+
 
 <link href="https://fonts.googleapis.com/css?family=Charmonman|Dancing+Script|Kodchasan|Spirax|Abril+Fatface" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'css/index.css'%}">
+<!-- <link rel="stylesheet" href="{% static 'css/signup.css'%}"> -->
+  {% endblock%}
+
 
 {% block content %}
 
-{{block.super}}
-<div class="container-fluid text-center ">
+
+<div class="container text-center ">
+    <h1>Welcome to Davias</h1>
 <div class="row">
-    <div class="mt-5 col-xs-7 col-sm-7 col-md-7 col-lg-7 header1">
-        <img class=" phone img-responsive"src="{% static "img/BG.png" %}" alt="">
+    <div class="header1 mt-3 col-xs-7 col-sm-7 col-md-7 col-lg-7"  >
+        <img class="bg img-responsive"src="{% static "img/BG.png" %}" alt="" style="height:746px;width:985px;opacity:100%;background-position-x:0px;background-position-y:0px; filter:drop-shadow(14px 15px 45px 0px 7%); position: absolute;
+        left: -180px;
+        top: -13px;
+        z-index: 1;">
     </div>
-    <div class="mt-5 col-xs-5 col-sm-5 col-md-5 col-lg-5 header2">
-            <img class=" phone2 img-responsive"src="{% static "img/Bitmap.png" %}" alt="">
+    <div class="header2 mt-3 col-xs-5 col-sm-5 col-md-5 col-lg-5" >
+        <div class="row" style="
+        margin: 0;
+        padding: 0;
+        width: 60px;
+        position: absolute;
+        right: 0px;
+        top: -13px;">
+                <ul >
+                        <li><a href="#" >Home</a></li>
+                        <li><a href="#" >News</a></li>
+                        <li><a href="#" >Contact</a></li>
+                        <li><a href="#" >About</a></li>
+                      </ul>
 
+        </div>
+            <img class="bitmap img-responsive"src="{% static "img/Bitmap.png" %}" alt=""  style="height:534px;width:800px;opacity:100%;background-position-x: 720px; background-position-y: 106px; opacity:100px;position: absolute;
+            right: -150px;
+            top: 0px;
+            z-index: -1;">
     </div>
-
         
 </div>
 </div>
@@ -24,4 +50,6 @@
 
 
   {% endblock %}
+
+  
 

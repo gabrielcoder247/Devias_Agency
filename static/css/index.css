@@ -1,0 +1,129 @@
+
+
+/* .header2 .row{ */
+    /* display: inline-flex */
+    /* margin: 5;
+    padding: 5;
+    width: 60px;
+    position: absolute;
+    right: 5px;
+    top: -13px;
+} */
+
+
+ img .bg {
+    /* left: -180px;
+    top: 0px;
+    z-index: 1;
+    height:746px;
+    width:985px;
+    opacity:100%;
+    background-position-x:0px;
+    background-position-y:0px; 
+    filter:drop-shadow(14px 15px 45px 0px 7%); 
+    position: absolute;  */
+    /* color:#0000ff;
+    opacity:100%;
+    offset: 14px;
+    position: relative; */
+    /* background-position-x:0px;
+    background-position-y:0px; */
+    /* position: relative;
+    filter: drop-shadow(14px 15px 45px 0px black 7%); 
+    -webkit-filter: drop-shadow(14px 15px 45px 0px black 7%);  */
+
+ } 
+
+
+img .bitmap {
+    
+    /* z-index: -1;
+    right: -150px;
+    top: 0px;
+    height:534px;
+    width:800px;
+    opacity:100%;
+    background-position-x: 720px; 
+    background-position-y: 106px; 
+    position: absolute;
+    */
+   
+
+} 
+
+/* h1 {
+    color:greenyellow;
+    position: absolute;
+    left: 50%;
+    top:20px;
+    z-index: -1;
+} */
+
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+  } 
+  
+  li {
+    display: inline;
+    float: left;
+  } */
+  
+
+  /* a { */
+    /* display: inline; */
+    /* padding: 8px; */
+    /* background-color: #dddddd; */
+  /* }
+
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+
+  
+  li a {
+    display: inline;
+    color: white;
+    text-align: center;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }  
+   */
+  /* Change the link color to #111 (black) on hover */
+  /* li a:hover {
+    background-color: #111;
+  } */
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    /* background-color: #333; */
+    position: relative;
+  }
+  
+  li {
+    float: left;
+
+  }
+  
+  li a {
+    display: block;
+    color: green;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: blue;
+  }
