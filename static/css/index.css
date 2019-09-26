@@ -9,7 +9,9 @@
     right: 5px;
     top: -13px;
 } */
-
+body {
+    box-sizing:0;
+}
 
  img .bg {
     /* left: -180px;
@@ -118,8 +120,9 @@ img .bitmap {
   
   li a {
     display: block;
-    color: green;
+    color: black;
     text-align: center;
+    font-family: "Circular Std Bold";
     padding: 14px 16px;
     text-decoration: none;
   }
@@ -127,3 +130,17 @@ img .bitmap {
   li a:hover {
     background-color: blue;
   }
+
+  /* h3{
+
+width: 496px;
+height: 89px;
+color: #ffffff;
+font-family: "Circular Std Bold";
+font-size: 42px;
+font-weight: 700;
+line-height: 44px;
+position: absolute;
+z-index: -1;
+
+  } */
