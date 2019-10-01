@@ -9,8 +9,8 @@
     right: 5px;
     top: -13px;
 } */
-body {
-    box-sizing:0;
+* {
+    box-sizing:border-box;
 }
 
  img .bg {
@@ -130,6 +130,27 @@ img .bitmap {
   li a:hover {
     background-color: blue;
   }
+
+    a {
+      color: #919eab;
+    }
+  
+    /* .row .team {
+      bottom: -800px;
+      left:60px;
+      position:absolute;
+      width:350px;
+      height: 330px;
+      box-shadow: 0 8px 20px rgba(224, 244,224, 0.5);
+      border-radius: 3px;
+      background-color: #0000ff; 
+    }
+
+    .row .team:hover {
+      box-shadow: cornflowerblue;
+      background-color: aquamarine;
+
+    } */
 
   /* h3{
 
